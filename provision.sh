@@ -21,20 +21,18 @@ PIP_PACKAGES=(
 
 EXTENSIONS=(
     "https://github.com/Mikubill/sd-webui-controlnet"
-    "https://github.com/deforum-art/sd-webui-deforum"
     "https://github.com/adieyal/sd-dynamic-prompts"
     "https://github.com/ototadana/sd-face-editor"
-    "https://github.com/AlUlkesh/stable-diffusion-webui-images-browser"
     "https://github.com/hako-mikan/sd-webui-regional-prompter"
     "https://github.com/Coyote-A/ultimate-upscale-for-automatic1111"
-    "https://github.com/Gourieff/sd-webui-reactor"
+    "https://github.com/RED1cat/Gelbooru-Prompt-Randomizer"
+    "https://github.com/Bing-su/adetailer"
 )
 
 CHECKPOINT_MODELS=(
-    "https://civitai.com/api/download/models/70458"
-    "https://civitai.com/api/download/models/1136462"
-    "https://civitai.com/api/download/models/1129446"
-    "https://civitai.com/api/download/models/1145511"
+    "https://civitai.com/api/download/models/70458" #henmixReal
+    "https://civitai.com/api/download/models/1145511" #zukiAnimeILL_v30 illustrious
+    "https://civitai.com/api/download/models/1222876" #matrixHentai pony
 )
 
 LORA_MODELS=(
@@ -56,7 +54,9 @@ ESRGAN_MODELS=(
 CONTROLNET_MODELS=(
     "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
     "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors?download"
-    "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_openpose.safetensors"
+    #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_openpose.safetensors"
+    "https://civitai.com/api/download/models/1091487" #controlnet-lineart
+    "https://huggingface.co/Laxhar/noob_openpose/resolve/main/openpose_pre.safetensors" #controlnet-openpose
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_hed-fp16.safetensors"
